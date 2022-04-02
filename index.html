@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jewelry shop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  <!-- Mobile menu part start -->
+  <nav class=" mobile_menu">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+
+       <div class="open_menu " onclick="openMenu()">
+        <i class="fas fa-bars"></i>
+       </div>
+
+      <div class="laila" id="navbar" onclick="closeMenu()">
+        <div class="close_menu" onclick="closeMenu()">
+          <i class="fas fa-times"></i>
+        </div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu_item">
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="closeMenu()">New Collection</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="closeMenu()">Necklaces</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="closeMenu()">earrings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="closeMenu()">rings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="closeMenu()">gift cards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="closeMenu()">promotions</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Mobile menu part end -->
+
+  <!-- Header part start -->
+  <header id="header_part">
+    <div class="container px-lg-0">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="header_logo">
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
+          </div>
+        </div>
+        <div class="col-lg-8 col-12">
+          <div class="header_link">
+            <ul class="d-flex flex-wrap justify-content-end">
+              <li><a href="card.html"><i class="fas fa-cart-plus"></i>3 products, $4 500.00</a></li>
+              <li><a href="#"><i class="fas fa-user"></i>account</a></li>
+              <li><a href="#"><i class="fas fa-unlock-alt"></i>sign out</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header part end -->
+
+  <!-- Navbar part start -->
+  <nav id=main_menu>
+    <div class="container px-lg-0">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="menu_item">
+            <ul class="d-flex justify-content-center align-item-center">
+              <li><a href="#">new collection</a></li>
+              <li><a href="#">necklaces</a></li>
+              <li><a href="#">earrings</a></li>
+              <li><a href="#">rings</a></li>
+              <li><a href="#">gift cards</a></li>
+              <li><a href="#">promotions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar part end -->
+
+  <!-- banner part start -->
+  <section id="banner_part">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background:url(images/git.jfif) no-repeat  50% 30% / cover;">
+                <div class="swiper_content">
+                  <h2>You deserve to be beauty</h2>
+                  <h1 class="ah-headline">
+                    <span>dimon</span>
+                    <span class="ah-words-wrapper">
+                        <b class="is-visible">necklace</b>
+                        <b>ring</b>
+                        <b>ear-jewelry</b>
+                    </span>
+                </h1>
+                <div class="button">
+                  <a href="#">read more</a>
+                </div>
+                </div>
+                </div>
+                <div class="swiper-slide" style="background: url(images/2.ring.jpg ) no-repeat  60% 40% / cover;">
+                 <div class="swiper_content">
+                  <h2>You deserve to be beauty</h2>
+                  <h1 class="ah-headline">
+                    <span>dimon</span>
+                    <span class="ah-words-wrapper">
+                        <b class="is-visible">necklace</b>
+                        <b>ring</b>
+                        <b>ear-jewelry</b>
+                    </span>
+                </h1>
+                <div class="button">
+                  <a href="#">read more</a>
+                </div>
+                 </div>
+                </div>
+                <div class="swiper-slide" style="background: url(images/git.jfif) no-repeat 50% 30% / cover;">
+                
+                <div class="swiper_content">
+                  <h2>You deserve to be beauty</h2>
+                  <h1 class="ah-headline">
+                    <span>dimon</span>
+                    <span class="ah-words-wrapper">
+                        <b class="is-visible">necklace</b>
+                        <b>ring</b>
+                        <b>ear-jewelry</b>
+                    </span>
+                </h1>
+                <div class="button">
+                  <a href="#">read more</a>
+                </div>
+                </div>
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev arrow"></div>
+              <div class="swiper-button-next arrow"></div>
+            </div>
+  </section>
+  <!-- banner part end -->
+
+  <!-- Product part start -->
+  <section id="product_part">
+    <div class="container">
+      <div class="row product_intro">
+        <div class="col-lg-12">
+          <div class="product_head">
+            <h2>last added products</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row slick_slider">
+        <div class="col">
+          <div class="product_itme text-center">
+            <div class="image">
+              <img src="images/j2.jfif" class="img-fluid w-100" alt="ring">
+            </div>
+            <div class="product_text">
+              <p>Excepteur sint occaecat</p>
+              <h4>$1 850.00</h4>
+            </div>
+            <div class="product_button">
+              <a href="#">add to card</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="product_itme text-center">
+            <div class="image">
+              <img src="images/j3.jfif" class="img-fluid w-100" alt="ring">
+            </div>
+            <div class="product_text">
+              <p>cupidatat non proident</p>
+              <h4>$1200.00</h4>
+            </div>
+            <div class="product_button">
+              <a href="#">add to card</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="product_itme text-center">
+            <div class="image">
+              <img src="images/j4.jfif" class="img-fluid w-100" alt="ring">
+            </div>
+            <div class="product_text">
+              <p>Duis aute irure</p>
+              <h4>$950.00</h4>
+            </div>
+            <div class="product_button">
+              <a href="#">add to card</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="product_itme text-center">
+            <div class="image">
+              <img src="images/j5.jpg" class="img-fluid w-100" alt="ring">
+            </div>
+            <div class="product_text">
+              <p>Excepteur sint occaecat</p>
+              <h4>$1150.00</h4>
+            </div>
+            <div class="product_button">
+              <a href="#">add to card</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="product_itme text-center">
+            <div class="image">
+              <img src="images/j6.jfif" class="img-fluid w-100" alt="ring">
+            </div>
+            <div class="product_text">
+              <p>cupidatat non proident</p>
+              <h4>$1850.00</h4>
+            </div>
+            <div class="product_button">
+              <a href="#">add to card</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="product_itme text-center">
+            <div class="image">
+              <img src="images/j7.jfif" class="img-fluid w-100" alt="ring">
+            </div>
+            <div class="product_text">
+              <p>Excepteur sint occaecat</p>
+              <h4>$1050.00</h4>
+            </div>
+            <div class="product_button">
+              <a href="#">add to card</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="product_itme text-center">
+            <div class="image">
+              <img src="images/j7.jfif" class="img-fluid w-100" alt="ring">
+            </div>
+            <div class="product_text">
+              <p>Excepteur sint occaecat</p>
+              <h4>$1050.00</h4>
+            </div>
+            <div class="product_button">
+              <a href="#">add to card</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Product part end -->
+
+  <!-- quick part start -->
+  <section id="quick_part">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="quick_text text-center">
+            <a href="#">
+              <img src="images/im-1.jpg" class="img-fluid w-100" alt="image">
+              <div class="overly text-center">
+               <div class="overly_inner text-center">
+                <h4>voluptatem</h4>
+                <h3>Dolor sit amet</h3>
+               </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="quick_text text-center hiden-1">
+            <a href="#">
+              <img src="images/im-2.jpg" class="img-fluid w-100" alt="image">
+              <div class="overly text-center">
+               <div class="overly_inner text-center">
+                <p>consequatur</p>
+                <h4>voluptatem</h4>
+                <h3>Dolor sit amet</h3>
+               </div>
+              </div>
+            </a>
+          </div>
+          <div class="quick_text text-center hiden">
+            <a href="#">
+              <img src="images/im-1.jpg" class="img-fluid w-100" alt="image">
+              <div class="overly text-center">
+                <div class="overly_inner text-center">
+                  <h4>voluptatem</h4>
+                <h3>Dolor sit amet</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="quick_text text-center">
+            <a href="#">
+              <img src="images/im-3.jpg" class="img-fluid w-100" alt="image">
+              <div class="overly text-center">
+                <div class="overly_inner text-center">
+                  <h4>voluptatem</h4>
+                <h3>Dolor sit amet</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- quick part end -->
+
+  <!-- Footer part start -->
+  <footer id="footer_part">
+    <div class="container">
+      <div class="row border_info">
+        <div class="col-lg-4">
+          <div class="footer_text">
+            <h4>frequently asked questions</h4>
+            <ul>
+              <li><a href="#">-Fusce eget dolor adipiscing</a></li>
+              <li><a href="#">-Posuere nisl eu venenatis mattis</a></li>
+              <li><a href="#">-Morbi diam vel dolor luctus dapibus</a></li>
+              <li><a href="#">-Posuere nisl eu venenatis mattis</a></li>
+              <li><a href="#">-Morbi diam vel dolor luctus dapibus</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="footer_text">
+            <h4>Social media</h4>
+            <ul class="icon">
+              <li><a href="#"><i class="fab fa-facebook-f"></i>facebook</a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i>twitter</a></li>
+              <li><a href="#"><i class="fab fa-google-plus-g"></i>google+</a></li>
+              <li><a href="#"><i class="fab fa-pinterest-p"></i>pinterest</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer_text">
+            <h4>Contact us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,?</p>
+            <ul class="social">
+              <li><a href="#"><i class="far fa-envelope-open"></i>contact@dianasjewelry.com</a></li>
+              <li><a href="#"><i class="fas fa-mobile-alt"></i>(590) 423 446 924</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer_text">
+            <h4>join our newsletter</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,?</p>
+            <form action="#">
+              <input type="mail" placeholder="Your email address...">
+              <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="copy">
+            <p>Copyright 2022 Jewelry. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer part end -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+   <!-- ionicons  -->
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.animatedheadline.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

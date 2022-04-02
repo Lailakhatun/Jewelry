@@ -1,0 +1,18 @@
+#main_menu{
+    .menu_item{
+        padding:30px 0;
+      border-top:1px solid #c2c2c2;
+        ul{
+            li{
+                a{
+                    @include fswf(#737373,16px,400,$Open);
+                    text-transform: uppercase;
+                    margin:0 25px;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

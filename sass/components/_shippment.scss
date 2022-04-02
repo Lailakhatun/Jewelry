@@ -1,0 +1,34 @@
+#shippment_part{
+    padding-bottom: 70px;
+    .shippment_text{
+        border:1px solid #c1c1c1;
+        padding:30px;
+        text-align: center;
+        p{
+            @include fswf(#888, 20px, 400, $Open) ;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+        h3{
+            @include fswf(#888, 25px, 500, $Merriweather);
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            span{
+                @include fswf(#444, 30px, 500, $Merriweather);
+            }
+        }
+        h4{
+            @include fswf(#888, 24px, 500, $Merriweather) ;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        a{
+            padding:0 40px;
+            line-height: 50px;
+            @include fswf(#fff, 16px, 500, $Merriweather) ;
+            text-transform: uppercase;
+            background: #4A4A4A;
+
+        }
+    }
+}

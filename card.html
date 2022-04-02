@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jewelry shop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  
+  <!-- Mobile menu part start -->
+  <nav class=" mobile_menu">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+
+       <div class="open_menu " onclick="openMenu()">
+        <i class="fas fa-bars"></i>
+       </div>
+
+      <div class="laila" id="navbar" onclick="closeMenu()">
+        <div class="close_menu" onclick="closeMenu()">
+          <i class="fas fa-times"></i>
+        </div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu_item">
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="closeMenu()">New Collection</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="closeMenu()">Necklaces</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="closeMenu()">earrings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="closeMenu()">rings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="closeMenu()">gift cards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="closeMenu()">promotions</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Mobile menu part end -->
+
+
+  <!-- Header part start -->
+  <header id="header_part">
+    <div class="container px-lg-0">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="header_logo">
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="header_link">
+            <ul class="d-flex flex-wrap justify-content-end">
+              <li><a href="card.html"><i class="fas fa-cart-plus"></i>3 products, $4 500.00</a></li>
+              <li><a href="#"><i class="fas fa-user"></i>account</a></li>
+              <li><a href="#"><i class="fas fa-unlock-alt"></i>sign out</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header part end -->
+
+  <!-- Navbar part start -->
+  <nav id=main_menu>
+    <div class="container px-lg-0">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="menu_item">
+            <ul class="d-flex justify-content-center align-item-center">
+              <li><a href="#">new collection</a></li>
+              <li><a href="#">necklaces</a></li>
+              <li><a href="#">earrings</a></li>
+              <li><a href="#">rings</a></li>
+              <li><a href="#">gift cards</a></li>
+              <li><a href="#">promotions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar part end -->
+
+  <!-- Breadcrumb partstart -->
+  <section id="breadcrumb_part">
+      <div class="container">
+        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='white'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">card</li>
+            </ol>
+          </nav>
+      </div>
+  </section>
+
+  <!-- Breadcrumb part end -->
+
+  <!-- Card table part start -->
+  <section id="card_table">
+      <div class="container">
+        <table cellspacing="0" cellpadding="0" border="0">
+          <thead>
+            <tr>
+              <th>items</th>
+              <th>price</th>
+              <th>Quantity</th>
+              <th>total</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="item">
+              <div class="card_image">
+                <img src="images/c1.jfif" class="img-fluid w-100" alt="image">
+              </div>
+              <h4>
+                illum qui dolorem eum fugiat</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere porro nihil nemo deserunt doloribus ullam eveniet ipsa beatae illum, qui neque unde vero ipsam, et nesciunt aperiam. Totam, nihil ab.</p>
+            </td>
+            <td class="price">$1350.00</td>
+            <td><select name="select" id="select">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select></td>
+            <td class="price_total">$1350.00</td>
+            <td><a href="#"><ion-icon name="close" class="ion-icon"></ion-icon></a></td>
+          </tr>
+          <tr>
+            <td>
+               <div class="card_image">
+              <img src="images/c2.jfif" class="img-fluid w-100" alt="image">
+            </div>
+            <h4>
+              illum qui dolorem eum fugiat</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere porro nihil nemo deserunt doloribus ullam eveniet ipsa beatae illum, qui neque unde vero ipsam, et nesciunt aperiam. Totam, nihil ab.</p>
+          </td>
+          <td class="price">$2100.00</td>
+          <td><select name="select" id="select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select></td>
+          <td class="price_total">$2100.00</td>
+          <td><a href="#"><ion-icon name="close" class="ion-icon"></ion-icon></a></td>
+          </tr>
+          <tr>
+            <td>
+               <div class="card_image">
+              <img src="images/c1.jfif" class="img-fluid w-100" alt="image">
+            </div>
+            <h4>
+              illum qui dolorem eum fugiat</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere porro nihil nemo deserunt doloribus ullam eveniet ipsa beatae illum, qui neque unde vero ipsam, et nesciunt aperiam. Totam, nihil ab.</p>
+          </td>
+          <td class="price">$1050.00</td>
+          <td><select name="select" id="select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select></td>
+          <td class="price_total">$1050.00</td>
+          <td><a href="#"><ion-icon name="close" class="ion-icon"></ion-icon></a></td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+  </section>
+  <!-- Card table part end -->
+
+  <!-- Shippment part start -->
+  <section id="shippment_part">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 m-auto">
+          <div class="shippment_text">
+          <h4>Subtotal: $4 500.00</h4>
+          <p>+shippment: $30.00</p>
+          <h3>Total to pay:<span>$4 530.00</span></h3>
+          <a href="#">Finalize and pay</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Shippment part end -->
+
+  <!-- Footer part start -->
+  <footer id="footer_part">
+    <div class="container">
+      <div class="row border_info">
+        <div class="col-lg-4">
+          <div class="footer_text">
+            <h4>frequently asked questions</h4>
+            <ul>
+              <li><a href="#">-Fusce eget dolor adipiscing</a></li>
+              <li><a href="#">-Posuere nisl eu venenatis mattis</a></li>
+              <li><a href="#">-Morbi diam vel dolor luctus dapibus</a></li>
+              <li><a href="#">-Posuere nisl eu venenatis mattis</a></li>
+              <li><a href="#">-Morbi diam vel dolor luctus dapibus</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="footer_text">
+            <h4>Social media</h4>
+            <ul class="icon">
+              <li><a href="#"><i class="fab fa-facebook-f"></i>facebook</a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i>twitter</a></li>
+              <li><a href="#"><i class="fab fa-google-plus-g"></i>google+</a></li>
+              <li><a href="#"><i class="fab fa-pinterest-p"></i>pinterest</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer_text">
+            <h4>Contact us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,?</p>
+            <ul class="social">
+              <li><a href="#"><i class="far fa-envelope-open"></i>contact@dianasjewelry.com</a></li>
+              <li><a href="#"><i class="fas fa-mobile-alt"></i>(590) 423 446 924</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer_text">
+            <h4>join our newsletter</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,?</p>
+            <form action="#">
+              <input type="mail" placeholder="Your email address...">
+              <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="copy">
+            <p>Copyright 2022 Jewelry. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer part end -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- ionicon -->
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.animatedheadline.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

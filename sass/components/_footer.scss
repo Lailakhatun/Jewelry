@@ -1,0 +1,97 @@
+#footer_part{
+    padding: 40px 0;
+    background: #000000;
+    .border_info{
+        border-bottom: 1px solid #a5a5aa;
+    .footer_text{
+        p{
+            @include fswf(#a5a5aa, 14px, 400, $Open);
+            line-height: 26px;
+            margin-bottom: 20px;    
+        }
+        h4{
+            @include fswf(#fff, 20px, 500, $Merriweather); 
+            text-transform: capitalize;
+            margin-bottom: 30px;
+        }
+        ul{
+            li{
+                margin-bottom: 20px;
+                a{
+                    @include fswf(#a5a5aa, 14px, 400, $Open); 
+                    text-transform: capitalize;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        ul.icon{
+            li{
+                margin-bottom: 20px;
+                a{
+                    @include fswf(#a5a5aa, 14px, 400, $Open);
+                    padding-left: 30px;
+                    position: relative;
+                    i{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        color:#FEA116;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        ul.social{
+            li{
+                a{
+                    @include fswf(#a5a5aa, 14px, 400, $Open);
+                    padding-left: 30px;
+                    position: relative;
+                    i{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        color:#FEA116;
+                        font-size: 20px;
+                    } 
+                }
+            }
+        }
+        form{
+            position: relative;
+            input{
+                @include fswf(#777, 16px, 500, $Open);
+                background: #fff;
+                width: 100%;
+                padding:10px 3%;
+                border: 0;
+                outline: 0;
+            }
+           button{
+               position: absolute;
+               right: 20px;
+               top: 50%;
+               transform: translateY(-50%);
+               border: 0;
+               outline: 0;
+               color:#777;
+               font-size: 25px;
+               background: none;
+               -webkit-transform: translateY(-50%);
+               -moz-transform: translateY(-50%);
+               -ms-transform: translateY(-50%);
+               -o-transform: translateY(-50%);
+}
+        }
+    }
+}
+.copy{
+    p{
+        @include fswf(#a5a5aa, 16px, 400, $Open);
+        margin-top: 30px;
+        text-transform: capitalize;
+    }
+}
+}

@@ -1,0 +1,15 @@
+#breadcrumb_part{
+    padding:20px 0;
+    background: #383838;
+    ol{
+        li{
+            @include fswf(#d9d9d9,14px,400,$Open);
+            text-transform: capitalize;
+
+            }
+            a{
+                @include fswf(#a5a5a5,14px,400,$Open);
+                text-transform: capitalize;
+            }
+        }
+    }

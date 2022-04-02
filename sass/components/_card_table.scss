@@ -1,0 +1,76 @@
+#card_table {
+    padding: 70px 0;
+
+    table {
+        thead {
+            border:1px solid #c1c1c1;
+            tr {
+                background: #383838;
+
+                th {
+                    @include fswf(#fff, 16px, 500, $Open) ;
+                    padding: 15px 20px;
+                    text-align: center;
+                    border-right: 1px solid #555;
+                    text-transform: capitalize;
+
+
+                }
+            }
+        }
+        tbody{
+            border:1px solid #c1c1c1;
+            tr{
+                border-bottom: 1px solid #c1c1c1;
+                td{
+                    padding:20px;
+                    border-right: 1px solid #c1c1c1;
+                    h4{
+                        @include fswf(#666, 14px, 700, $Merriweather) ; 
+                        text-transform: uppercase;
+                        word-spacing: 2px;
+                        margin-bottom: 10px;
+                        &:hover{
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                    p{
+                        @include fswf(#999, 14px, 400, $Open) ;
+                        line-height: 26px;
+
+                    }
+                    select{
+                        background: none;
+                        outline: 0;
+                        border:0;
+                        padding:0px 10px;
+                        @include fswf(#656567, 16px, 400, $Open) ;
+                        border:1px solid #c2c2c2;
+                        cursor: pointer;
+                    }
+                   a{
+                    .ion-icon{
+                        color:#fff;
+                        font-size: 14px;
+                        width: 30px;
+                        height: 30px;
+                        background: #656567;
+                        cursor: pointer;
+                    }
+                   }
+                    .card_image{
+                        float: left;
+                        img{
+                            padding-right: 20px;
+                            max-height: 150px;
+                        }
+                    }
+                }
+                td.price{
+                    @include fswf(#999, 14px, 400, $Open) ;
+                }
+            }
+        }
+    }
+}

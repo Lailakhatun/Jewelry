@@ -1,0 +1,420 @@
+@media (min-width:1400px) {}
+
+@media (min-width:1200px) and (max-width:1399.98px) {}
+
+@media (min-width:992px) and (max-width:1199.98px) {}
+
+@media (min-width:768px) and (max-width:991.98px) {}
+
+@media (min-width:576px) and (max-width:767.98px) {
+	
+	/* #################### index html page start #################### */
+	/* Menu part start */
+	.mobile_menu {
+		display: block;
+	}
+
+	.laila {
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 0%;
+		background: #000;
+		z-index: 9999999;
+		overflow: hidden;
+	}
+
+	.close_menu i {
+		position: absolute;
+		right: 20px;
+		top: 15px;
+		font-size: 40px;
+		color: #fff;
+		cursor: pointer;
+
+	}
+
+	.menu_item {
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+		text-align: center;
+	}
+
+	.menu_item li a {
+		color: #fff;
+		font-size: 16px;
+		font-weight: 400;
+		font-family: 'Open Sans', sans-serif;
+		text-transform: capitalize;
+	}
+
+	.menu_item li a:hover {
+		color: #FEA116;
+	}
+
+	.open_menu {
+		float: right;
+		margin-top: 18px;
+		color: #000;
+		font-size: 20px;
+		cursor: pointer;
+		margin-right: 5px;
+	}
+
+	/* Menu part end */
+
+	/* Header part start */
+	.header_logo {
+		display: none;
+	}
+
+	#header_part {
+		padding: 10px 0 25px;
+	}
+
+	.header_link ul {
+		justify-content: center !important;
+	}
+
+	.header_link ul li a {
+		line-height: 45px !important;
+
+	}
+
+	/* Header part end */
+
+	/* Navber part start */
+	#main_menu {
+		display: none;
+	}
+
+	/* Navber part end */
+
+	/* banner part start */
+	#banner_part .swiper .swiper_content h2 {
+		font-size: 35px;
+	}
+
+	.swiper-button-prev,
+	.swiper-button-next {
+		display: none;
+	}
+
+	/* banner part end */
+
+	/* product part start */
+	.prev-ar {
+		right: 50px;
+	}
+	.next-ar {
+		right: 15px;
+	}
+	/* product part end */
+
+	/* quick part start */
+	.quick_text{
+		overflow: hidden;
+	}
+	#quick_part .quick_text .overly {
+		width: 259px;
+		height: 160px;
+	}
+	#quick_part .quick_text .overly h4 {
+		padding-bottom: 20px;
+	}
+	h4 {
+		margin-top: 20px;
+	}
+	#quick_part .quick_text .overly h4::after {
+		bottom: 8px;
+	}
+	.hiden{
+		display: block !important;
+	}
+	.hiden-1{
+		display: none;
+	}
+	/* quick part end */
+
+	/* fooder part start */
+	#footer_part .border_info .footer_text p {
+	
+		text-align: left;
+	}
+	#footer_part .border_info .footer_text form {
+		margin-bottom: 30px;
+	}
+	/* fooder part end */
+
+	
+
+	/* #################### index html page end #################### */
+
+	/* #################### card html page start #################### */
+	/* card table part start */
+	thead {
+		display: none !important;
+	}
+
+	tr {
+		display: block;
+	}
+
+	td.price {
+		display: none;
+	}
+
+	.card_image {
+		width: 150px;
+		margin: auto;
+		float: none !important;
+	}
+
+	img {
+		margin-top: 10px;
+	}
+
+	h4 {
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	td {
+		display: block;
+		text-align: center;
+		padding: 10px !important;
+		border-right: none !important;
+	}
+
+	#select {
+		display: block;
+		width: 100%;
+		padding: 10px !important;
+		text-align: center;
+	}
+
+	td.item {
+		display: block;
+	}
+
+	tbody {
+		border: none !important;
+	}
+
+	/* card table part end */
+
+
+	/* #################### card html page end #################### */
+}
+
+
+@media (max-width:575.98px) {
+
+	/* #################### index html page start #################### */
+	/* Menu part start */
+	.mobile_menu {
+		display: block;
+	}
+
+	.laila {
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 0%;
+		background: #000;
+		z-index: 9999999;
+		overflow: hidden;
+	}
+
+	.close_menu i {
+		position: absolute;
+		right: 20px;
+		top: 15px;
+		font-size: 40px;
+		color: #fff;
+		cursor: pointer;
+
+	}
+
+	.menu_item {
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+		text-align: center;
+	}
+
+	.menu_item li a {
+		color: #fff;
+		font-size: 16px;
+		font-weight: 400;
+		font-family: 'Open Sans', sans-serif;
+		text-transform: capitalize;
+	}
+
+	.menu_item li a:hover {
+		color: #FEA116;
+	}
+
+	.open_menu {
+		float: right;
+		margin-top: 18px;
+		color: #000;
+		font-size: 20px;
+		cursor: pointer;
+		margin-right: 5px;
+	}
+
+	/* Menu part end */
+
+	/* Header part start */
+	.header_logo {
+		display: none;
+	}
+
+	#header_part {
+		padding: 10px 0 25px;
+	}
+
+	.header_link ul {
+		justify-content: center !important;
+	}
+
+	.header_link ul li a {
+		line-height: 45px !important;
+
+	}
+
+	/* Header part end */
+
+	/* Navber part start */
+	#main_menu {
+		display: none;
+	}
+
+	/* Navber part end */
+
+	/* banner part start */
+	#banner_part .swiper .swiper_content h2 {
+		font-size: 35px;
+	}
+
+	.swiper-button-prev,
+	.swiper-button-next {
+		display: none;
+	}
+
+	/* banner part end */
+
+	/* product part start */
+	.prev-ar {
+		right: 50px;
+	}
+	.next-ar {
+		right: 15px;
+	}
+	/* product part end */
+
+	/* quick part start */
+	.hiden{
+		display: block !important;
+	}
+	.hiden-1{
+		display: none;
+	}
+	#quick_part .quick_text .overly .overly_inner {
+		left: 30%;
+		
+	}
+	/* quick part end */
+
+	/* fooder part start */
+	#footer_part .border_info .footer_text p {
+	
+		text-align: left;
+	}
+	#footer_part .border_info .footer_text form {
+		margin-bottom: 30px;
+	}
+	/* fooder part end */
+
+	
+
+	/* #################### index html page end #################### */
+
+	/* #################### card html page start #################### */
+	/* card table part start */
+	thead {
+		display: none !important;
+	}
+
+	tr {
+		display: block;
+	}
+
+	td.price {
+		display: none;
+	}
+
+	.card_image {
+		width: 150px;
+		margin: auto;
+		float: none !important;
+	}
+
+	img {
+		margin-top: 10px;
+	}
+
+	.item h4 {
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	td {
+		display: block;
+		text-align: center;
+		padding: 10px !important;
+		border-right: none !important;
+	}
+
+	#select {
+		display: block;
+		width: 100%;
+		padding: 10px !important;
+		text-align: center;
+	}
+
+	td.item {
+		display: block;
+	}
+
+	tbody {
+		border: none !important;
+	}
+
+	/* card table part end */
+
+
+	/* #################### card html page end #################### */
+}

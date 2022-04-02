@@ -1,0 +1,31 @@
+
+@import '../mixins/fontStyle';
+@import '../variables/fontFamily';
+@import '../variables/transition';
+
+/* ================= Mobile menu part start ==================== */
+.mobile_menu{
+    display: none;
+}
+/* ================= Mobile menu part end ==================== */
+
+/* ================= Header part start ==================== */
+#header_part{
+    padding: 25px 0;
+
+.header_link ul li a{
+    @include fswf(#656567,14px,400,$Open);
+    line-height: 60px;
+    margin:0 20px;
+    text-transform: uppercase;
+    &:hover{
+        text-decoration: underline;
+    }
+    i{
+        color: #cecece;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+}
+}
+/* ================= Header part end ==================== */
